@@ -1,0 +1,27 @@
+[
+    {
+      "judul": "Profit counting",
+      "deskripsi": "calculator sederhana untuk mencari profit",
+      "link": "https://calculationmaniktzy.000webhostapp.com/",
+      "gambar": "project_image/profit.png"
+    },
+    {
+      "judul": "Rekomendasi Kos",
+      "deskripsi": "Pemilihan kos dengan menggunakan metode kecerdasan buatan",
+      "link": "https://pemilihankoswp.000webhostapp.com/",
+      "gambar": "project_image/kos.png"
+    },
+    {
+      "judul": "Babysitter",
+      "deskripsi": "Aplikasi mobile yang sudah menerapkan CRUD menggunakan framework flutter",
+      "link": "https://github.com/ManikTzyyy/babysitter.git",
+      "gambar": "project_image/babysitter.png"
+    },
+    {
+      "judul": "network automation",
+      "deskripsi": "mengatur configurasi bandwith dan limit pada mikrotik melalui website menggunakan framework django",
+      "link": "https://github.com/ManikTzyyy/network_automation.git",
+      "gambar": "project_image/netauto.png"
+    }
+  ]
+  

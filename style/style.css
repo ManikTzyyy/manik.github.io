@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to right top, #211c6a 55%, #fc6736 95%);
+}
+
+/* =================== navbar===================== */
+.container-navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.container-navbar a {
+  transition: 0.5s;
+}
+.container-navbar a:hover {
+  letter-spacing: 0.25em;
+  color: blue;
+}
+
+/* ===================end navbar===================== */
+
+/* ===================profile===================== */
+.container-profile {
+  background-image: url(/background/japan.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 10vh 0;
+  margin-top: 50px;
+}
+.container-profile .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 60%;
+  background-color: rgba(128, 128, 128, 0.199);
+  border-radius: 50px 0 50px 0;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+}
+
+.container-profile img {
+  max-width: 50%;
+  height: auto;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+}
+
+.icon img {
+  max-width: 5vh;
+  height: auto;
+  padding-right: 5px;
+}
+
+/* ===================end profile===================== */
+
+/* ===================about===================== */
+.container-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  margin: 40px 20px;
+  border-bottom: solid rgba(255, 255, 255, 0.192);
+  padding-bottom: 30px;
+}
+
+.container-about .container-text {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.container-about .container-skill {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.container-about .container-skill .container {
+  background-color: rgba(128, 128, 128, 0.199);
+  border-radius: 0px 30px 0 30px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+/* ===================end about===================== */
+
+/* ===================achvmnt===================== */
+
+.container-ach {
+  padding: 50px;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.container-ach {
+  margin: 20px;
+  border-bottom: solid rgba(255, 255, 255, 0.192);
+}
+
+.container-ach .container-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 30px 30px 0 0;
+  padding: 10px;
+  display: block;
+}
+
+.container-ach .container-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.container-ach .container-card {
+  background-color: rgba(128, 128, 128, 0.199);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 300px;
+  border-radius: 30px 30px 0 0;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+.container-ach .card-txt {
+  color: white;
+  padding: 0 10px 5px 10px;
+}
+
+/* ===================end achvmnt===================== */
+
+/* ===================project===================== */
+#project {
+  padding: 20px;
+}
+.container-project .container-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 30px 30px 0 0;
+  padding: 10px;
+  display: block;
+}
+
+.container-project .container-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.container-project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin: 20px;
+  border-bottom: solid rgba(255, 255, 255, 0.192);
+}
+
+.container-project .container-card {
+  background-color: rgba(128, 128, 128, 0.199);
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 60vh;
+  border-radius: 0 30px 30px 0;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.container-project .card-txt {
+  color: white;
+  padding: 0 10px 5px 10px;
+}
+
+/* ===================end project===================== */
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.button a {
+  position: relative;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  padding: 10px 30px;
+  transition: 0.5s;
+  border-radius: 50px;
+  justify-content: center;
+  max-width: 33vh;
+  display: flex;
+  align-items: center;
+}
+
+.button a:hover {
+  letter-spacing: 0.25em;
+  background: var(--clr);
+  box-shadow: 0 0 30px var(--clr);
+  color: var(--clr);
+}
+.button a:before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: rgb(0, 0, 0);
+  border-radius: 50px;
+}
+
+.button a span {
+  position: relative;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .container-profile .container {
+    flex-direction: column;
+  }
+
+  .container-text {
+    text-align: center;
+  }
+
+  .container-profile img {
+    margin-bottom: 10px;
+    max-width: 100px;
+    height: auto;
+  }
+
+  .icon img {
+    display: none;
+  }
+  .container-project .container-card {
+    width: 100%;
+  }
+
+  .container-content {
+    flex-direction: column;
+  }
+
+  .button a {
+    max-width: 13vh;
+    font-size: 8px;
+  }
+
+  .container-about .container-skill {
+    flex-direction: column;
+  }
+}
