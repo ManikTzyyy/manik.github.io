@@ -6,6 +6,12 @@
       "gambar": "project_image/profit.png"
     },
     {
+      "judul": "CryptoPrice Info",
+      "deskripsi": "Menampilkan harga crypto terbaru menggunakan API indodax",
+      "link": "https://maniktzyyy.github.io/cryptocurrenty/",
+      "gambar": "project_image/cryptoPrice.png"
+    },
+    {
       "judul": "Rekomendasi Kos",
       "deskripsi": "Pemilihan kos dengan menggunakan metode kecerdasan buatan",
       "link": "https://pemilihankoswp.000webhostapp.com/",
@@ -22,5 +28,11 @@
       "deskripsi": "Mengatur konfigurasi bandwidth dan limit pada MikroTik melalui website menggunakan framework Django",
       "link": "https://github.com/ManikTzyyy/network_automation.git",
       "gambar": "project_image/netauto.png"
+    },
+    {
+      "judul": "Mobile Apps Calculator",
+      "deskripsi": "calculator yang dapat menghitung bonus dari sebuah persenan",
+      "link": "https://github.com/ManikTzyyy/simpleMobileCalc",
+      "gambar": "project_image/simpleCalc.png"
     }
   ]
