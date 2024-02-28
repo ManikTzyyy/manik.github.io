@@ -2,7 +2,7 @@
     {
       "judul": "Profit counting",
       "deskripsi": "calculator sederhana untuk mencari profit",
-      "link": "https://manikzty.000webhostapp.com/",
+      "link": "https://maniktzyyy.github.io/profitcounting/",
       "gambar": "project_image/profit.png"
     },
     {
@@ -22,6 +22,13 @@
       "deskripsi": "mengatur configurasi bandwith dan limit pada mikrotik melalui website menggunakan framework django",
       "link": "https://github.com/ManikTzyyy/network_automation.git",
       "gambar": "project_image/netauto.png"
-    }
+    },
+      {
+      "judul": "Crytpo Price",
+      "deskripsi": "Informasi terkait harga crypto",
+      "link": "https://maniktzyyy.github.io/cryptocurrenty/",
+      "gambar": "project_image/profit.png"
+    },
+    
   ]
   
