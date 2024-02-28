@@ -1,7 +1,7 @@
 [
     {
       "judul": "Profit counting",
-      "deskripsi": "calculator sederhana untuk mencari profit",
+      "deskripsi": "Calculator sederhana untuk mencari profit",
       "link": "https://maniktzyyy.github.io/profitcounting/",
       "gambar": "project_image/profit.png"
     },
@@ -13,17 +13,14 @@
     },
     {
       "judul": "Babysitter",
-      "deskripsi": "Aplikasi mobile yang sudah menerapkan CRUD menggunakan framework flutter",
+      "deskripsi": "Aplikasi mobile yang sudah menerapkan CRUD menggunakan framework Flutter",
       "link": "https://drive.google.com/drive/folders/1oJKqLOCOSEASc0sS7ruc2k-BowG9MN8j?usp=sharing",
       "gambar": "project_image/babysitter.png"
     },
     {
-      "judul": "network automation",
-      "deskripsi": "mengatur configurasi bandwith dan limit pada mikrotik melalui website menggunakan framework django",
+      "judul": "Network Automation",
+      "deskripsi": "Mengatur konfigurasi bandwidth dan limit pada MikroTik melalui website menggunakan framework Django",
       "link": "https://github.com/ManikTzyyy/network_automation.git",
       "gambar": "project_image/netauto.png"
-    },
-   
-    
+    }
   ]
-  
