@@ -34,5 +34,12 @@
       "deskripsi": "calculator yang dapat menghitung bonus dari sebuah persenan",
       "link": "https://github.com/ManikTzyyy/simpleMobileCalc",
       "gambar": "project_image/simpleCalc.png"
+    },
+    {
+      "judul": "Ganesha Tools",
+      "deskripsi": "Ganesha tools merupakan aplikasi manajemen peminjaman alat alat di UNDIKSHA ",
+      "link": "https://github.com/ManikTzyyy/ganesha_tools",
+      "gambar": "project_image/ganeshatools.png"
     }
+    
   ]
